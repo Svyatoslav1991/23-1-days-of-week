@@ -1,18 +1,15 @@
 ﻿#include <iostream>
 #include "functions.h"
 
-#define MONDAY 1
-#define TUESDAY 2
-#define WEDNESDAY 3
-#define THURSDAY 4
-#define FRIDAY 5
-#define SATURDAY 6
-constexpr auto SUNDAY = 7;
+#define WEEKDAY(number, name) \
+	case number: \
+		std::cout << #name << "\n"; \
+		break;
 
 
 int main()
 {
-	std::cout << "Task 23.1 Days of the week\n\n";
+	std::cout << "\tTask 23.1 Days of the week\n\n";
 
 	int day;
 
@@ -21,31 +18,17 @@ int main()
 		std::cout << "Number of a day of the week (1 - 7)\n";
 		day = myCin<decltype(day)>();
 
-	} while (day < MONDAY || day > SUNDAY);
+	} while (day < 1 || day > 7);
 
 	switch (day)
 	{
-	case MONDAY:
-		std::cout << "Monday\n";
-		break;
-	case TUESDAY:
-		std::cout << "Tuesday\n";
-		break;
-	case WEDNESDAY:
-		std::cout << "Wednesday\n";
-		break;
-	case THURSDAY:
-		std::cout << "Thursday\n";
-		break;
-	case FRIDAY:
-		std::cout << "Friday\n";
-		break;
-	case SATURDAY:
-		std::cout << "Saturday\n";
-		break;
-	case SUNDAY:
-		std::cout << "Sunday\n";
-		break;
+	WEEKDAY(1, Monday)
+	WEEKDAY(2, Tuesday)
+	WEEKDAY(3, Wednesday)
+	WEEKDAY(4, Thursday)
+	WEEKDAY(5, Friday)
+	WEEKDAY(6, Saturday)
+	WEEKDAY(7, Sunday)
 	default:
 		std::cout << "Something went wrong\n";
 		break;
