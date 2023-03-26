@@ -1,5 +1,0 @@
-C:/Users/Svyatoslav/Desktop/C++/skillbox_homework/23/23_1_days_of_week/out/build/x64-Debug/CMakeFiles/edit_cache.dir
-C:/Users/Svyatoslav/Desktop/C++/skillbox_homework/23/23_1_days_of_week/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
-C:/Users/Svyatoslav/Desktop/C++/skillbox_homework/23/23_1_days_of_week/out/build/x64-Debug/src/CMakeFiles/rebuild_cache.dir
-C:/Users/Svyatoslav/Desktop/C++/skillbox_homework/23/23_1_days_of_week/out/build/x64-Debug/src/CMakeFiles/23_1_days_of_week.dir
-C:/Users/Svyatoslav/Desktop/C++/skillbox_homework/23/23_1_days_of_week/out/build/x64-Debug/src/CMakeFiles/edit_cache.dir
